@@ -1,0 +1,14 @@
+name: Stat
+version: '${project.version}'
+main: gui.mainclass
+api-version: '1.21'
+commands:
+  스텟:
+    usage: /스텟 | 현재 스텟을 확인합니다.
+  메뉴:
+    usage: /메뉴 | 서버 메뉴를 열람합니다.
+  스텟관리자:
+    usage: /스텟관리자 | 관리자 권한 명령어입니다.
+    permission: statmanager.permission
+    permission-message: 관리자만 사용 가능한 명령어입니다.
+    default: op
